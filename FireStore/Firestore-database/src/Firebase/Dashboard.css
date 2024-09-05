@@ -1,0 +1,32 @@
+.info-hero{
+    height: 100vh;
+    width: 100%;
+    /* background-color: red; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.sec1{
+    height: 100%;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    padding-left: 10%;
+    flex-direction: column;
+}
+.sec2{
+    height: 100%;
+    width: 50%;
+    /* background-color: rgba(132, 76, 76, 0.5); */
+    background-image: url(https://i.pinimg.com/originals/cf/4d/a2/cf4da2847364017411a78753840b44eb.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.btn1{
+    width: 40%;
+}
