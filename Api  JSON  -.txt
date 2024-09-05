@@ -1,0 +1,50 @@
+Api / JSON  :-
+
+
+1)  What is an Api ?
+
+
+> Api full form is an Application Programming Interface
+
+2) Howmany Sides of API ...?
+
+>  API Have Two sides ..
+
+	1.. Client - side  2.. Server - Side
+
+
+3)  How Many Type Of Api .. ?
+
+
+>  3 Type of Api ...
+	
+	1. Web Api
+	2. Third Party Api
+	3.  West Api
+
+		1. Web Api :- it Normally use for devlopers in web pages.
+	
+		2. Third Party Api :- Its Similar like Web api but that is use from third party like google , twitter api etc...
+
+		3.  West Api :- its is used to create api for developers
+
+
+4) How to use Api ?
+
+
+>  GET
+>  PUT
+>  DELETE
+
+
+5) what is use For Postman in APIS ?
+
+> Basically Postman stand for check api it is creak or not if yes that show error
+
+
+6) What is full form Of JSON ?
+
+>  JAVASCRIPT OBJECT NOTATION
+  
+
+	It is Lightweigted programming...... 

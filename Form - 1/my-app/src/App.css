@@ -1,0 +1,32 @@
+form{
+  border: 1px solid;
+  height: 400px;
+  width: 30%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+
+}
+input{
+  height: 20px;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+label{
+  font-size: 15px;
+}
+button{
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  font-weight: bolder;
+}
+body{
+  background-image: url("https://www.elegantthemes.com/blog/wp-content/uploads/2013/09/bg-9-full.jpg");
+}
+div{
+  margin-top: 5%;
+}

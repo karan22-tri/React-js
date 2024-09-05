@@ -1,0 +1,78 @@
+.main{
+    background-image: url(https://in.images.search.yahoo.com/search/images;_ylt=AwrKAISI861mZWIn1569HAx.;_ylu=c2VjA3NlYXJjaARzbGsDYnV0dG9u;_ylc=X1MDMjExNDcyMzAwNQRfcgMyBGZyA21jYWZlZQRmcjIDcDpzLHY6aSxtOnNiLXRvcARncHJpZANpR0t1RU05QVNsMlpfSDVOYWplczJBBG5fcnNsdAMwBG5fc3VnZwMxMARvcmlnaW4DaW4uaW1hZ2VzLnNlYXJjaC55YWhvby5jb20EcG9zAzAEcHFzdHIDBHBxc3RybAMwBHFzdHJsAzE3BHF1ZXJ5A2JhY2tncm91bmQlMjAlMjBpbWFnZQR0X3N0bXADMTcyMjY3NjExMw--?p=background++image&fr=mcafee&fr2=p%3As%2Cv%3Ai%2Cm%3Asb-top&ei=UTF-8&x=wrt&type=E210IN885G0#id=248&iurl=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fpreviews%2F020%2F607%2F768%2Foriginal%2Fwhite-chat-ai-background-free-vector.jpg&action=click);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.add{
+    background-image: url(https://in.images.search.yahoo.com/search/images;_ylt=AwrKAISI861mZWIn1569HAx.;_ylu=c2VjA3NlYXJjaARzbGsDYnV0dG9u;_ylc=X1MDMjExNDcyMzAwNQRfcgMyBGZyA21jYWZlZQRmcjIDcDpzLHY6aSxtOnNiLXRvcARncHJpZANpR0t1RU05QVNsMlpfSDVOYWplczJBBG5fcnNsdAMwBG5fc3VnZwMxMARvcmlnaW4DaW4uaW1hZ2VzLnNlYXJjaC55YWhvby5jb20EcG9zAzAEcHFzdHIDBHBxc3RybAMwBHFzdHJsAzE3BHF1ZXJ5A2JhY2tncm91bmQlMjAlMjBpbWFnZQR0X3N0bXADMTcyMjY3NjExMw--?p=background++image&fr=mcafee&fr2=p%3As%2Cv%3Ai%2Cm%3Asb-top&ei=UTF-8&x=wrt&type=E210IN885G0#id=248&iurl=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fpreviews%2F020%2F607%2F768%2Foriginal%2Fwhite-chat-ai-background-free-vector.jpg&action=click);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.list{
+    background-image: url(https://images.saymedia-content.com/.image/t_share/MTkyOTkyMzE2OTQ3MjQ0MjUz/website-background-templates.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.addtodo{
+    background: rgb(190,3,3);
+    background: linear-gradient(284deg, rgba(190,3,3,0.8100490196078431) 28%, rgba(0,82,254,0.8156512605042017) 67%);
+box-shadow: 1px 1px 55px 10px red;
+}
+/* From Uiverse.io by adamgiebl */ 
+.cssbuttons-io-button {
+    background: #a370f0;
+    color: white;
+    font-family: inherit;
+    padding: 0.35em;
+    padding-left: 1.2em;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 0.9em;
+    border: none;
+    letter-spacing: 0.05em;
+    display: flex;
+    align-items: center;
+    box-shadow: inset 0 0 1.6em -0.6em #714da6;
+    overflow: hidden;
+    position: relative;
+    height: 2.8em;
+    padding-right: 3.3em;
+    cursor: pointer;
+  }
+  
+  .cssbuttons-io-button .icon {
+    background: white;
+    margin-left: 1em;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.2em;
+    width: 2.2em;
+    border-radius: 0.7em;
+    box-shadow: 0.1em 0.1em 0.6em 0.2em #7b52b9;
+    right: 0.3em;
+    transition: all 0.3s;
+  }
+  
+  .cssbuttons-io-button:hover .icon {
+    width: calc(100% - 0.6em);
+  }
+  
+  .cssbuttons-io-button .icon svg {
+    width: 1.1em;
+    transition: transform 0.3s;
+    color: #7b52b9;
+  }
+  
+  .cssbuttons-io-button:hover .icon svg {
+    transform: translateX(0.1em);
+  }
+  
+  .cssbuttons-io-button:active .icon {
+    transform: scale(0.95);
+  }
+  
