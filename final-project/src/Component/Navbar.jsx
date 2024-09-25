@@ -18,7 +18,6 @@ const Navbar = () => {
                 <li>
                     <Link to="/cart" className="cart-link">
                         Cart
-                        {cartItemCount > 0 && <span className="cart-count">{cartItemCount}</span>}
                     </Link>
                 </li>
             </ul>
