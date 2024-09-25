@@ -1,0 +1,29 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "title": "Luxury Perfume Gift Set For Men - 4 x 20mls",
+        "price": 565.00,
+        "image": "https://bellavitaorganic.com/cdn/shop/files/ManPerfumeGiftSet-01_2_eb660165-6da9-4e14-bdf0-fabd68113a00.jpg?v=1695204946&width=500"
+      },
+      {
+        "id": 2,
+        "title": "Luxury OUD Experience Set",
+        "price": 849.00,
+        "image": "https://bellavitaorganic.com/cdn/shop/files/0_6326984c-e89a-43ba-b560-e35d40faba70.jpg?v=1703835295&width=500"
+      },
+      {
+        "id": 3,
+        "title": "CEO Man Luxury Perfume - 100ml",
+        "price": 499.00,
+        "image": "http://bellavitaorganic.com/cdn/shop/files/DATEWOMAN.jpg?v=1693290911"
+      },
+      {
+        "id": 4,
+        "title": "Luxury Perfume Gift Set For Women - 4 x 20mls",
+        "price": 565.00,
+        "image": "https://bellavitaorganic.com/cdn/shop/files/WomanPerfumeGiftSet_1.jpg?v=1695204304&width=500"
+      }
+    ]
+  }
+  

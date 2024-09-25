@@ -1,0 +1,39 @@
+#main{
+    display: flex;
+  }
+  #pic{
+    height: 50%;
+    width: 50%;
+  }
+  button{
+    color: aliceblue;
+    background-color: black;
+    height: 40px;
+    width: 180px;
+  }
+  h1{
+    text-align: center;
+  }
+  h2{
+    font-size: 20px;
+  }
+  #poster{
+    height: 500px;
+    width: 100%;
+    background-image: url("https://bellavitaorganic.com/cdn/shop/files/1920-720_f828d852-a3ef-4d7e-b7aa-462e805e836d.jpg?v=1710501458&width=1920");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .logo{
+    text-align: center;
+  }
+  .sec{
+    margin-top: 5%;
+    height: 500px;
+    width: 100%;
+    background-image: url("https://bellavitaorganic.com/cdn/shop/files/Offer-Banner-2.jpg?v=1695733175&width=1920");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
