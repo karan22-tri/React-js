@@ -43,17 +43,6 @@ export default function Dashboard() {
     })
    }
 
-    // if(editIndex>=0  ){
-    //   console.log("update doc" + editIndex);
-    //     await updateDoc(doc(firestore,"Students",record[editIndex].docId),{
-    //       name : name,
-    //       sub  : sub,
-    //     })
-    // }else{
-    //   console.log("add doc" + editIndex);
-    //     await addDoc(collection(firestore,"Students"),{
-    //       id: user.uid , name  , sub})
-    // }
     
     SetName("");
     SetSub("");

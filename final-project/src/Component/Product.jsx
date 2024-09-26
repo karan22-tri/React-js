@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';  
-import { Link } from 'react-router-dom'; 
 import { useDispatch } from 'react-redux';
 import { addToCart } from '../Redux/action';
 import './Product.css';
@@ -78,14 +77,16 @@ export default function Product() {
             </select>
             <h1>Bestsellers</h1>
             <div id="main">
-                {products.map((product) => (
+                {
+                products.map((product) => (
                     <div key={product.id}>
                         <img src={product.image} alt={product.title} id="pic" />
                         <h2 className="title">{product.title}</h2>
                         <p className="pr">${product.price.toFixed(2)}</p>
                         <button onClick={() => handleAddToCart(product)}>Add To Cart</button>
                     </div>
-                ))}
+                ))
+                }
             </div>
             <div className="sec"></div>
         </div>

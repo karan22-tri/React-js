@@ -48,8 +48,12 @@ export default function Cart() {
             <h1>Your Cart</h1>
             {cart.length === 0 ? (
                 <>
-                    <p>Your cart is empty.</p>
-                    <img src="https://media.giphy.com/media/3ohhwsjzpejaSWoTkI/giphy.gif" alt="" width={500}/>
+                <center>
+                <p>Your cart is empty...</p>
+
+                <img src="https://media.giphy.com/media/3ohhwsjzpejaSWoTkI/giphy.gif" alt="" width={500}/>
+
+                </center>
                 </>
             ) : (
                 <>
