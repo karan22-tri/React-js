@@ -1,0 +1,473 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    height: 80px;
+}
+body{
+    background-color: black;
+}
+
+.navbar-brand {
+    font-family: "Creepster", system-ui;
+    color: white;
+}
+
+.nav li {
+    display: inline-block;
+}
+
+ li a {
+    color: white;
+    text-decoration: none;
+    padding-left: 30px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+}
+
+.hero {
+    width: 96%;
+    height: 75vh;
+    border: 1px solid;
+   background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("https://websitedemos.net/halloween-shop-04/wp-content/uploads/sites/1398/2023/09/hero-01.jpg");
+   background-position: center;
+   background-size: cover;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 20px;
+}
+.hero-text{
+    text-align: start;
+    /* border: 1px solid; */
+    width: 96%;
+
+   
+}
+.collection{
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.helo-collection{
+    font-size: 100px;
+    font-family: "Creepster", system-ui;
+    color: #fff;
+    display: block;
+    line-height: 90px;
+}
+.hero-para{
+    margin-top: 10px;
+    color: #909090;
+    font-size: 16px;
+    font-weight: 600;
+}
+.button1{
+    background-color: #e35701;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+
+}
+@media (max-width:1200px){
+
+}  
+@media (max-width:992px){
+    .collection{
+        font-size: 12px;
+    }
+    .helo-collection{
+        font-size: 80px;
+    }
+    .hero-para{
+        font-size: 14px;
+    }
+
+}  
+@media (max-width:768px){
+    .collection{
+        font-size: 10px;
+    }
+    .helo-collection{
+        font-size: 60px;
+    }
+    .hero-para{
+        font-size: 12px;
+    }
+    .helo-sec6{
+        font-size: 20px;
+    }
+
+}  
+@media (max-width:576px){
+    .collection{
+        font-size: 8px;
+    }
+    .helo-collection{
+        font-size: 3 0px;
+    }
+    .hero-para{
+        font-size: 10px;
+    }
+}  
+.helo-collection-1{
+    font-size: 100px;
+    font-family: "Creepster", system-ui;
+    color: #fff;
+    display: block;
+    line-height: 90px;
+}
+.sec-2{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+    background-image: url('https://websitedemos.net/halloween-shop-04/wp-content/uploads/sites/1398/2023/09/BG-1.jpg');
+    background-position: center;
+    padding-top: 50px;
+}
+.sec-2mini{
+    border-bottom: 1px solid rgb(81, 81, 81);
+    padding-bottom: 120px;
+}
+.most{
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    color: #e35701;
+    font-weight: 600;
+}
+.dash{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: rgb(116, 116, 116);
+}
+.img-sec2-1{
+ border: 1px solid;
+ height: 370px;   
+ background-image: url('https://websitedemos.net/halloween-shop-04/wp-content/uploads/sites/1398/2023/09/product-03-a-300x300.jpg');
+ background-position: center;
+ background-size: cover;
+ border: 1px solid white;
+ width: 100%;
+ margin-bottom: 5px;
+ margin-top: 20px;
+}
+.img-sec2-2{
+    border: 1px solid;
+    height: 370px;   
+    background-image: url('https://websitedemos.net/halloween-shop-04/wp-content/uploads/sites/1398/2023/09/product-01-a-300x300.jpg');
+    background-position: center;
+    background-size: cover;
+ margin-bottom: 5px;
+ margin-top: 20px;
+
+   }
+   .img-sec2-3{
+    border: 1px solid;
+    height: 370px;   
+    background-image: url('https://websitedemos.net/halloween-shop-04/wp-content/uploads/sites/1398/2023/09/product-02-a-300x300.jpg');
+    background-position: center;
+    background-size: cover;
+ margin-bottom: 5px;
+ margin-top: 20px;
+
+
+   }
+   .woocommerce-loop-product__title{
+    font-size: 22px;
+    margin-top: 2px;
+    color: #fff;
+    font-family: "Creepster", system-ui;
+   }
+   .price-sec2{
+    font-weight: 600;
+    color: #e35701;
+    margin-left: 5px;
+   }
+   .button-sec2{
+    font-size: 15px;
+    padding:10px 18px;
+    background-color: #e35701;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 10px;
+   }
+   .creepi{
+    font-family: "Creepster", system-ui;
+    color: white;
+    font-size: 32px;
+   }
+   .ppp{
+    box-sizing: border-box;
+    padding-left: 100px;
+    padding-right: 70px;
+   }
+   .sec3-para{
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(127, 127, 127);
+   }
+   .tricks{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 120px;
+   }
+   .sec3-image{
+    background-image: url('https://websitedemos.net/halloween-shop-04/wp-content/uploads/sites/1398/2023/09/product-0010.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 550px;
+    width: 80%;
+    border-radius: 15px;
+
+}
+.sec-smile{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.sec-3mini{
+    /* border-bottom: 1px solid rgb(81, 81, 81); */
+    padding-bottom: 120px;
+}
+
+.img-sec3-1{
+    border: 1px solid;
+    height: 370px;   
+    background-image: url('https://websitedemos.net/halloween-shop-04/wp-content/uploads/sites/1398/2023/09/product-04-a-300x300.jpg');
+    background-position: center;
+    background-size: cover;
+    border: 1px solid white;
+    width: 100%;
+    margin-bottom: 5px;
+    margin-top: 20px;
+   }
+   .img-sec3-2{
+       border: 1px solid;
+       height: 370px;   
+       background-image: url('https://websitedemos.net/halloween-shop-04/wp-content/uploads/sites/1398/2023/09/product-06-a-300x300.jpg');
+       background-position: center;
+       background-size: cover;
+    margin-bottom: 5px;
+    margin-top: 20px;
+   
+      }
+      .img-sec3-3{
+       border: 1px solid;
+       height: 370px;   
+       background-image: url('https://websitedemos.net/halloween-shop-04/wp-content/uploads/sites/1398/2023/09/product-05-a-300x300.jpg');
+       background-position: center;
+       background-size: cover;
+    margin-bottom: 5px;
+    margin-top: 20px;
+   
+   
+      }
+      .sec-4{
+        height: 600px;
+      }
+      .sec-4-bimage{
+        background-image:linear-gradient(rgba(1,1,1,0.5),rgba(1,1,1,0.5),rgba(1,1,1,0.5)), url('https://websitedemos.net/halloween-shop-04/wp-content/uploads/sites/1398/2023/09/bg-07.jpg');
+        background-position: center;
+        background-size: cover;
+        border-radius: 5px;
+        width: 96%;
+        margin-top: -80px;
+    
+    }
+    .creepi-sec4{
+        font-family: "Creepster", system-ui;
+        color: white;
+        font-size: 48px;
+    }
+    .sec4-para{
+        font-size: 16px;
+        font-family: "Open Sans", sans-serif;
+        color: rgb(173, 173, 173);
+    }
+    
+.img-sec5-1{
+    border: 1px solid;
+    height: 370px;   
+    background-image: url('https://websitedemos.net/halloween-shop-04/wp-content/uploads/sites/1398/2023/09/product-09-a-300x300.jpg');
+    background-position: center;
+    background-size: cover;
+    border: 1px solid white;
+    width: 100%;
+    margin-bottom: 5px;
+    margin-top: 20px;
+   }
+   .img-sec5-2{
+       border: 1px solid;
+       height: 370px;   
+       background-image: url('https://websitedemos.net/halloween-shop-04/wp-content/uploads/sites/1398/2023/09/product-07-a-300x300.jpg');
+       background-position: center;
+       background-size: cover;
+    margin-bottom: 5px;
+    margin-top: 20px;
+   
+      }
+      .img-sec5-3{
+       border: 1px solid;
+       height: 370px;   
+       background-image: url('https://websitedemos.net/halloween-shop-04/wp-content/uploads/sites/1398/2023/09/product-08-a-300x300.jpg');
+       background-position: center;
+       background-size: cover;
+    margin-bottom: 5px;
+    margin-top: 20px;
+      }
+      .sec-5{
+        display: flex;
+        /* justify-content: center; */
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 0px;
+        background-image: url('https://websitedemos.net/halloween-shop-04/wp-content/uploads/sites/1398/2023/09/BG-1.jpg');
+        background-position: center;
+        padding-top: 50px;
+    }
+    .helo-sec6{
+        font-size: 60px;
+        font-family: "Creepster", system-ui;
+        color: #fff;
+        display: block;
+        line-height: 70px;
+        text-align: center;
+    }
+    .most-sec6{
+        font-size: 14px;
+        font-family: "Open Sans", sans-serif;
+        color: #e35701;
+        font-weight: 600;
+        text-align: center;
+    }
+   
+.sec-6{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 30px;
+    
+    border-bottom: 1px solid rgb(105, 105, 105);
+
+}
+
+
+.full-sec6{
+    background-image:linear-gradient(rgba(1,1,1,0.8),rgba(1,1,1,0.2),rgba(1,1,1,0.2)), url('https://websitedemos.net/halloween-shop-04/wp-content/uploads/sites/1398/2023/09/BG-2.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.raoud{
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.elementor-testimonial-name{
+    color: gray;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.full-star{
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 30px;letter-spacing: -2px;
+}
+.icon-sec7{
+    font-size: 24px;
+    color: #fff;
+margin-top: 50px;
+margin-bottom: 20px;
+display: inline-block;
+}
+
+.sec-7{
+    border-bottom: 1px solid rgb(105, 105, 105);
+}
+
+.sec-8{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    border-bottom: 1px solid rgb(105, 105, 105);
+}
+.foot-logo{
+ width: 30%;
+}
+
+.foot-navbar{
+    width: 30%;
+}
+.foot-navbar a{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    margin-right: 20px;
+
+}
+
+.foot-social{
+    width: 30%;
+}
+.fu-star{
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 30px;letter-spacing: 2px;
+}
+.sec-9{
+    line-height: 100px;
+ 
+    height: 100px;
+    border-bottom: 1px solid rgb(105, 105, 105);
+}
+.sec9-para{
+    color: #909090;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+    @media (max-width:992px){
+   
+    
+    }  
+    @media (max-width:768px){
+    
+        .helo-sec6{
+            font-size: 5vh;
+            line-height: 50px;
+        }
+    
+    }  
+    @media (max-width:576px){
+        
+    }  

@@ -1,0 +1,44 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Page</title>
+</head>
+
+<body>
+    <h1>Shop Page</h1>
+    <div id="cart-container"></div>
+
+  
+</body>
+
+</html>
+
+<script>
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    const cartContainer = document.getElementById("cart-container");
+
+    function displayCartItems() {
+
+        let cartItems = JSON.parse(localStorage.getItem("cart")) || [];
+
+        cartContainer.innerHTML = "";
+
+        cartItems.forEach(item => {
+
+            let itemElement = document.createElement("div");
+            itemElement.textContent = `${item.name} - ${item.price}`;
+            cartContainer.appendChild(itemElement);
+        });
+    }
+
+    displayCartItems();
+});
+
+</script>
