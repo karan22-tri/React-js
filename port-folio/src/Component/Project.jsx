@@ -24,13 +24,13 @@ export default function Project() {
             <div className="btn-container">
               <button
                 className="btn btn-color-2 project-btn"
-                onclick="window.href='https://github.com/'"
               >
+                <a href="https://github.com/karan22-tri/JavaScript/tree/main/Burger-20240423T091028Z-001/Burger"></a>
                 Github
               </button>
               <button
                 className="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+               onclick="https://hoisting-demo.web.app/"
               >
                 Live Demo
               </button>

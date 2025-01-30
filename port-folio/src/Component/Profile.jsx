@@ -2,7 +2,7 @@ import React from 'react'
 import profilePic from '../assets/profile-pic.jpeg'
 import linkedinIcon from '../assets/linkedin.png'
 import githubIcon from '../assets/github.png'
-import RV from '../assets/resume.png';
+import RU from '../assets/resume.png';
 export default function Profile() {
   return (
     <section id="profile">
@@ -15,8 +15,8 @@ export default function Profile() {
         <p className="section__text__p2">Full-Stack Developer</p>
         <div className="btn-container">
          
-        <a href={RV} download>
-          <button class="btn btn-color-2">Download CV</button>
+        <a href={RU} download>
+          <button class="btn btn-color-2">Download RU</button>
         </a>
           <a
             class="btn btn-color-1"
